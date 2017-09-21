@@ -1,7 +1,6 @@
 const ejs = require('ejs');
 const templatePath = __dirname + '/../static/components/index.ejs';
 const URLS = JSON.parse(process.env.URLS);
-console.log(URLS)
 
 /**
 * @returns {buffer}
