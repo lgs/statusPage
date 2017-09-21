@@ -1,6 +1,6 @@
 const ejs = require('ejs');
 const lib = require('lib');
-const helper = require('../lib/helper');
+const helper = require('../helpers/helper');
 const templatePath = __dirname + '/../static/components/service.ejs';
 
 

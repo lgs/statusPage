@@ -1,11 +1,12 @@
 const ejs = require('ejs');
 const templatePath = __dirname + '/../static/components/index.ejs';
 const URLS = JSON.parse(process.env.URLS);
+console.log(URLS)
 
 /**
 * @returns {buffer}
 */
-module.exports =  (context, callback) => {
+module.exports = (context, callback) => {
 
   let templateVars = {
     displayNames: URLS.map(url => url.displayName),

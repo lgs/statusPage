@@ -1,5 +1,5 @@
-const db = require('../lib/db');
-const http_request = require('../lib/http_request');
+const db = require('../helpers/db');
+const http_request = require('../helpers/http_request');
 
 /**
 * @param {array} urls

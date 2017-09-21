@@ -1,6 +1,6 @@
 const fs = require('fs');
 const mime = require('mime');
-const helper = require('../../lib/helper.js');
+const helper = require('../../helpers/helper.js');
 const path = require('path');
 
 let filepath = './static';
